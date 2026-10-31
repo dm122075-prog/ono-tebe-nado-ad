@@ -224,7 +224,7 @@
 }
 
 .about {
-  padding: 120px 24px;
+  padding: 120px 24px 180px 24px;
   display: grid;
   grid-template-columns: 287px 1fr;
   gap: 72px;
@@ -233,6 +233,7 @@
 
 .about__column:first-child {
   padding-top: 35px;
+  padding-left: 47px;
   display: flex;
   justify-content: center;
 }
@@ -280,7 +281,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 30px 50px 82px 50px;
+  padding: 0 50px 82px 50px;
   align-items: start;
 }
 
