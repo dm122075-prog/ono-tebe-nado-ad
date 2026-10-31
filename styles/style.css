@@ -226,7 +226,7 @@
 .about {
   padding: 120px 24px;
   display: grid;
-  grid-template-columns: 334px 1fr;
+  grid-template-columns: 287px 1fr;
   gap: 72px;
   align-items: start;
 }
@@ -238,7 +238,7 @@
 }
 
 .about__column:last-child {
-  padding-top: 136px;
+  padding-top: 133px;
 }
 
 .about__logo {
