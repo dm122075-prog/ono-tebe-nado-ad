@@ -2,12 +2,18 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px;
+  padding: 92px 50px 95px 50px;
 }
 
 .header__logo {
   display: block;
   width: 148px;
+}
+
+.header__logo-image {
+  height: 105px;
+  width: 100%;
+  object-fit: contain;
 }
 
 .header__links-list {
@@ -52,7 +58,7 @@
   background-position: center;
   min-height: 757px;
   position: relative;
-  padding: 165px 50px 61px 50px; 
+  padding: 165px 50px 61px 50px;
   display: flex;
   flex-direction: column;
 }
@@ -96,7 +102,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: auto; 
+  margin-top: auto;
   position: relative;
   z-index: 2;
 }
